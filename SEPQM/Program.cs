@@ -6,6 +6,57 @@ namespace SEPQM
     {
         static void Main(string[] args)
         {
+
+            School school = new InternationalSchool();
+            school.GetTenantDetails();
+
+            School internationBranchASchool = new InternationalBranchASchool();
+            internationBranchASchool.GetTenantDetails();
+
+            InternationalBranchASchool internationalBranchASchoolObj = new InternationalBranchASchool();
+            internationalBranchASchoolObj.GetTenantDetails();
+
+
+            internationalBranchASchoolObj.GetBranchMangerName();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             //Excecuting the constructors when object is intanciated
             Laptop laptop = new Laptop(1, "Hp i7", "0002", 275000.00, "Hewlett-Packard Development Company, L.P.");
 
@@ -20,10 +71,9 @@ namespace SEPQM
 
 
 
-            laptop.PrintLaptopDetails(customer, showRoomId); 
+            laptop.PrintLaptopDetails(customer, showRoomId);
             laptop.PrintLaptopDetails("Hp");
             laptop.updateLaptopDetails();
-
         }
     }
 }
