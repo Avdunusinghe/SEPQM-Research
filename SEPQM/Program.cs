@@ -6,21 +6,20 @@ namespace SEPQM
     {
         static void Main(string[] args)
         {
-
-            School school = new InternationalSchool();
-            school.GetTenantDetails();
-
-            School internationBranchASchool = new InternationalBranchASchool();
-            internationBranchASchool.GetTenantDetails();
-
-            InternationalBranchASchool internationalBranchASchoolObj = new InternationalBranchASchool();
-            internationalBranchASchoolObj.GetTenantDetails();
-
-
-            internationalBranchASchoolObj.GetBranchMangerName();
-
+        
+           
         }
     }
 }
 
 
+/*School school = new InternationalSchool();
+School internationBranchASchool = new InternationalBranchASchool();
+InternationalBranchASchool internationalBranchASchoolObj = new InternationalBranchASchool();
+
+
+
+internationalBranchASchoolObj.GetBranchMangerName();
+internationBranchASchool.GetTenantDetails();
+internationalBranchASchoolObj.GetTenantDetails();
+school.GetTenantDetails();*/
