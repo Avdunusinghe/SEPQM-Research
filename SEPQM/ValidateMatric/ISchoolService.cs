@@ -8,7 +8,7 @@ namespace SEPQM.ValidateMatric
 {
     public  interface ISchoolService
     {
-        public  void GetTanentDetails();
+        public  void GetTenantDetails();
         public  void SaveSchool();
         public  void DeleteSchool();
         public  void UpdateSchool();

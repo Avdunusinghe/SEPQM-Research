@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace SEPQM.ValidateMatric
 {
-    public abstract class SchoolService : ISchoolService
+    public  class SchoolService : ISchoolService
     {
-        public void GetTanentDetails()
+        public void GetTenantDetails()
         {
             Console.WriteLine("Get Tanent Details");
         }
@@ -28,7 +28,6 @@ namespace SEPQM.ValidateMatric
 
             Console.WriteLine("Update School");
         }
-
         
     }
 }
